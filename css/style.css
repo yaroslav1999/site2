@@ -1,0 +1,81 @@
+body{
+    background-color: #fff;
+}
+.mybtn{
+    display: flex;
+    padding:5px 30px;
+    column-gap: 20px;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 14px;
+}
+.mybtn img{
+    filter:invert(1); 
+    width:1em; 
+    height:1em;
+}
+
+.bg-nav{
+    background-color: #1c558a;
+}
+.bg-blue{
+    background-color: #37b0c2;
+}
+.bg-red{
+    background-color: #fa8692;
+}
+.bg-green{
+    background-color:#70cf82;
+}
+
+.logo{
+    filter:invert(1); 
+    width:40px; 
+    height:40px;
+}
+h1{
+    padding-top: 30px;
+    text-align: center;
+}
+h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.rewards .row:nth-child(odd){
+    flex-direction: row-reverse;
+}
+/* right big */
+/* .rewards .row:nth-child(even)>div:first-child{ */
+.rewards .row:nth-child(even)>div:nth-child(2){    
+    background: url('../img/right-b.png') right center / contain no-repeat;
+    height: 40px;
+    line-height: 36px;
+    text-align: right;
+}
+/* right small */
+/* .rewards .row:nth-child(odd)>div:first-child{ */
+.rewards .row:nth-child(odd)>div:nth-child(2){    
+    background: url('../img/left-b.png') left center / contain no-repeat;
+    height: 40px;
+    line-height: 36px;
+    text-align: left;
+}
+/* left small */
+/* .rewards .row:nth-child(even)>div:last-child{ */
+.rewards .row:nth-child(even)>div:nth-child(4){    
+    background: url('../img/left-s.png') left center / contain no-repeat;
+    height: 40px;
+    line-height: 36px;
+    text-align: left;
+}
+/* left big */
+/* .rewards .row:nth-child(odd)>div:last-child{ */
+.rewards .row:nth-child(odd)>div:nth-child(4){    
+    background: url('../img/right-s.png') right center / contain no-repeat;
+    height: 40px;
+    line-height: 36px;
+    text-align: right;
+}
+

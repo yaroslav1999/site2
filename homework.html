@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style-h.css">
+    <link rel="icon" href="icons/favicon.ico" type="image/x-icon">
+    <title>Homewrork</title>
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-nav" aria-label="Homework">
+        <div class="container-fluid">
+
+            <a class="navbar-brand logo" href="index.html">
+                <img src="logo/logo.svg" alt="">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header" aria-controls="header" aria-expanded="false" aria-label="MainMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="header">
+                <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="homework.html">Homework</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="settings.html" >Settings</a>
+                    </li>
+                </ul>
+                <a href="settings.html">
+                    <img class="rounded-circle" src="img/user.jpg" alt="" width="40">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Homework</h1>
+
+        <div class="legend d-none d-sm-block">
+            <div class="wrapper">
+                <div>current -</div>
+                <div class="bg-light"></div>
+            </div>
+            <div class="wrapper">
+                <div>reviewed -</div>
+                <div class="bg-green"></div>
+            </div>
+            <div class="wrapper">
+                <div>under review -</div>
+                <div class="bg-blue"></div>
+            </div>
+            <div class="wrapper">
+                <div>overdue -</div>
+                <div class="bg-red"></div>
+            </div>
+        </div>
+
+        <h2>JavaScript</h2>
+        <hr>
+        <div class="block row row-cols-1 row-cols-sm-2 row-cols-lg-3 gap-3 justify-content-around justify-content-md-between">
+            <div class="card card-current bg-light">
+                <div class="title">Loops</div>
+                <div class="date">10/05/2019</div>
+                <div class="controls justify-content-center">
+                    <input class="form-control form-control-sm" id="formFileSm" type="file">
+                </div>
+            </div>
+            <div class="card card-current bg-blue text-light">
+                <div class="title">Conditional statements</div>
+                <div class="date">8/05/2019</div>
+                <div class="controls justify-content-center">
+                    <button type="button" class="btn text-light rounded-0 rounded-start border-light mybtn"> 
+                        <img src="icons/download.svg" alt="icon">
+                        <div>Your file</div>   
+                    </button>
+                    <button type="button" class="btn text-light rounded-0 rounded-end border-light mybtn"> 
+                        <img src="icons/trash.svg" alt="icon">
+                        <div>Remove</div>   
+                    </button>
+                </div>
+            </div>
+            <div class="card card-current bg-blue text-light">
+                <div class="title">Variables</div>
+                <div class="date">5/05/2019</div>
+                <div class="controls justify-content-center">
+                    <button type="button" class="btn text-light rounded-0 rounded-start border-light mybtn"> 
+                        <img src="icons/download.svg" alt="icon">
+                        <div>Your file</div>   
+                    </button>
+                    <button type="button" class="btn text-light rounded-0 rounded-end border-light mybtn"> 
+                        <img src="icons/trash.svg" alt="icon">
+                        <div>Remove</div>   
+                    </button>
+                </div>
+            </div>
+        </div>
+        <h2 class="mt-5">HTML & CSS</h2>
+        <hr>
+        <div class="block row row-cols-1 row-cols-sm-2 row-cols-lg-3 gap-3 justify-content-around justify-content-md-between">
+            <div class="card card-current bg-red text-light">
+                <div class="title">Adaptive layout</div>
+                <div class="date">29/04/2019</div>
+                <div class="controls justify-content-center">
+                    <input class="form-control form-control-sm" id="formFileSm" type="file">
+                </div>
+            </div>
+            <div class="card card-current bg-red text-light">
+                <div class="title">Grid layout</div>
+                <div class="date">27/04/2019</div>
+                <div class="controls justify-content-center">
+                    <input class="form-control form-control-sm" id="formFileSm" type="file">
+                </div>
+            </div>
+            <div class="card card-current bg-green text-light position-relative">
+                <div class="bg-success rounded-pill pe-2 ps-2 mt-2 position-absolute top-10 end-0 translate-middle">11</div>
+                <div class="title">Flexbox</div>
+                <div class="date">24/04/2019</div>
+                <div class="controls justify-content-center">
+                    <button type="button" class="btn text-light rounded-0 rounded-start border-light mybtn"> 
+                        <img src="icons/download.svg" alt="icon">
+                        <div>Your file</div>   
+                    </button>
+                    <button type="button" class="btn text-light rounded-0 rounded-end border-light mybtn"> 
+                        <img src="icons/redo.svg" alt="icon">
+                        <div>Resend</div>   
+                    </button>
+                </div>
+            </div>
+
+            <div class="card card-current bg-green text-light position-relative">
+                <div class="bg-success rounded-pill pe-2 ps-2 mt-2 position-absolute top-10 end-0 translate-middle">12</div>
+                <div class="title">Animations</div>
+                <div class="date">20/04/2019</div>
+                <div class="controls justify-content-center">
+                    <button type="button" class="btn text-light rounded-0 rounded-start border-light mybtn"> 
+                        <img src="icons/download.svg" alt="icon">
+                        <div>Your file</div>   
+                    </button>
+                    <button type="button" class="btn text-light rounded-0 rounded-end border-light mybtn"> 
+                        <img src="icons/redo.svg" alt="icon">
+                        <div>Resend</div>   
+                    </button>
+                </div>
+            </div>
+            <div class="card card-current bg-green text-light position-relative">
+                <div class="bg-success rounded-pill pe-2 ps-2 mt-2 position-absolute top-10 end-0 translate-middle">11</div>
+                <div class="title">Forms</div>
+                <div class="date">18/04/2019</div>
+                <div class="controls justify-content-center">
+                    <button type="button" class="btn text-light rounded-0 rounded-start border-light mybtn"> 
+                        <img src="icons/download.svg" alt="icon">
+                        <div>Your file</div>   
+                    </button>
+                    <button type="button" class="btn text-light rounded-0 rounded-end border-light mybtn"> 
+                        <img src="icons/redo.svg" alt="icon">
+                        <div>Resend</div>   
+                    </button>
+                </div>
+            </div>
+            <div class="card card-current bg-green text-light position-relative">
+                <div class="bg-success rounded-pill pe-2 ps-2 mt-2 position-absolute top-10 end-0 translate-middle">12</div>
+                <div class="title">Tables</div>
+                <div class="date">17/04/2019</div>
+                <div class="controls justify-content-center">
+                    <button type="button" class="btn text-light rounded-0 rounded-start border-light mybtn"> 
+                        <img src="icons/download.svg" alt="icon">
+                        <div>Your file</div>   
+                    </button>
+                    <button type="button" class="btn text-light rounded-0 rounded-end border-light mybtn"> 
+                        <img src="icons/redo.svg" alt="icon">
+                        <div>Resend</div>   
+                    </button>
+                </div>
+            </div>
+            <div class="card card-current bg-green text-light position-relative">
+                <div class="bg-success rounded-pill pe-2 ps-2 mt-2 position-absolute top-10 end-0 translate-middle">12</div>
+                <div class="title">Tables</div>
+                <div class="date">17/04/2019</div>
+                <div class="controls justify-content-center">
+                    <button type="button" class="btn text-light rounded-0 rounded-start border-light mybtn"> 
+                        <img src="icons/download.svg" alt="icon">
+                        <div>Your file</div>   
+                    </button>
+                    <button type="button" class="btn text-light rounded-0 rounded-end border-light mybtn"> 
+                        <img src="icons/redo.svg" alt="icon">
+                        <div>Resend</div>   
+                    </button>
+                </div>
+            </div>
+            
+
+
+        </div>
+
+    </div>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>

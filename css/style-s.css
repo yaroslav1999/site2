@@ -1,0 +1,33 @@
+body{
+    background-color: #fff;
+}
+
+.bg-nav{
+    background-color: #1c558a;
+}
+.bg-blue{
+    background-color: #37b0c2;
+}
+.bg-red{
+    background-color: #fa8692;
+}
+.bg-green{
+    background-color:#70cf82;
+}
+
+.logo{
+    filter:invert(1); 
+    width:40px; 
+    height:40px;
+}
+h1{
+    padding-top: 30px;
+    text-align: center;
+}
+.title{
+    background-color:#37b0c2;
+    text-align: center;
+    color:#1c558a;
+    line-height: 40px;
+    font-weight: 700;
+}
